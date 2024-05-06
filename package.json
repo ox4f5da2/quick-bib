@@ -1,0 +1,30 @@
+{
+  "name": "quick-bib",
+  "version": "0.0.0",
+  "description": "This is a tool whick can create bib file quickly!",
+  "main": "index.js",
+  "bin": {
+    "bib": "./index.js"
+  },
+  "keywords": [
+    "BibTex",
+    "Command Line",
+    "quick"
+  ],
+  "author": "Karl Fang",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.0.0",
+    "cheerio": "^1.0.0-rc.12",
+    "cli-clear": "^1.0.4",
+    "cli-progress": "^3.12.0",
+    "commander": "^11.0.0",
+    "figlet": "^1.7.0",
+    "iconv-lite": "^0.6.3",
+    "inquirer": "^8.2.6",
+    "log-symbols": "^4.1.0",
+    "ora": "^5.4.1",
+    "request": "^2.88.2",
+    "retry": "^0.13.1"
+  }
+}
