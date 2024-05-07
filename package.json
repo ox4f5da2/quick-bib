@@ -1,6 +1,6 @@
 {
   "name": "quick-bib",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "This is a tool whick can create bib file quickly!",
   "main": "index.js",
   "bin": {
