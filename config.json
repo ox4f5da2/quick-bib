@@ -3,7 +3,8 @@
   "baidu": "https://xueshu.baidu.com/",
   "output": "",
   "proxy": "",
-  "timeout": "",
+  "timeout": "5000",
   "google-cookie": "",
+  "baidu-cookie": "",
   "bibTex-process": ""
 }

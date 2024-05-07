@@ -9,8 +9,12 @@ const chalk = require('chalk');
 function getResult(answers, result) {
   const processList = genProcessList(answers);
   try {
+    
     const modulePath = readConfig().get("bibTex-process");
-    const customProcessList = require(modulePath);
+    let customProcessList = [];
+    if (modulePath !== '') {
+      customProcessList = require(modulePath);
+    }
     if (!Array.isArray(customProcessList)) {
       throw new Error(`the default export type of the "${chalk.magenta(modulePath)}" module is not Array!`);
     }
